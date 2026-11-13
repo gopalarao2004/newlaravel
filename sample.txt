@@ -1,0 +1,115 @@
+
+blogs/
+│
+├── public/
+│   └── favicon.ico
+│
+├── e2e/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── icons/
+│   │   └── styles/
+│   │       ├── main.css
+│   │       ├── variables.css
+│   │       ├── reset.css
+│   │       └── responsive.css
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── AppNavbar.vue
+│   │   │   ├── AppFooter.vue
+│   │   │   ├── LoadingSpinner.vue
+│   │   │   ├── AlertMessage.vue
+│   │   │   └── ConfirmDialog.vue
+│   │   │
+│   │   └── ui/
+│   │       ├── BaseButton.vue
+│   │       ├── BaseInput.vue
+│   │       └── BaseModal.vue
+│   │
+│   ├── layouts/
+│   │   ├── PublicLayout.vue
+│   │   └── DashboardLayout.vue
+│   │
+│   ├── modules/
+│   │   │
+│   │   ├── auth/
+│   │   │   ├── components/
+│   │   │   │   ├── LoginForm.vue
+│   │   │   │   └── RegisterForm.vue
+│   │   │   ├── services/
+│   │   │   │   └── authService.ts
+│   │   │   └── stores/
+│   │   │       └── authStore.ts
+│   │   │
+│   │   ├── blog/
+│   │   │   ├── components/
+│   │   │   │   ├── BlogCard.vue
+│   │   │   │   ├── BlogList.vue
+│   │   │   │   ├── BlogForm.vue
+│   │   │   │   ├── BlogImage.vue
+│   │   │   │   └── BlogPagination.vue
+│   │   │   ├── services/
+│   │   │   │   └── blogService.ts
+│   │   │   └── stores/
+│   │   │       └── blogStore.ts
+│   │   │
+│   │   └── profile/
+│   │       ├── components/
+│   │       │   └── ProfileCard.vue
+│   │       └── services/
+│   │           └── profileService.ts
+│   │
+│   ├── views/
+│   │   ├── public/
+│   │   │   ├── HomeView.vue
+│   │   │   ├── BlogDetailsView.vue
+│   │   │   ├── LoginView.vue
+│   │   │   └── RegisterView.vue
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── DashboardView.vue
+│   │   │   ├── MyBlogsView.vue
+│   │   │   ├── CreateBlogView.vue
+│   │   │   ├── EditBlogView.vue
+│   │   │   └── ProfileView.vue
+│   │   │
+│   │   └── errors/
+│   │       ├── NotFoundView.vue
+│   │       └── UnauthorizedView.vue
+│   │
+│   ├── router/
+│   │   ├── index.ts
+│   │   └── guards.ts
+│   │
+│   ├── services/
+│   │   └── api.ts
+│   │
+│   ├── composables/
+│   │   ├── useAuth.ts
+│   │   ├── useBlogs.ts
+│   │   └── useNotifications.ts
+│   │
+│   ├── types/
+│   │   ├── auth.ts
+│   │   └── blog.ts
+│   │
+│   ├── utils/
+│   │   ├── validators.ts
+│   │   ├── formatDate.ts
+│   │   └── constants.ts
+│   │
+│   ├── App.vue
+│   └── main.ts
+│
+├── .env
+├── .env.example
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── vite.config.ts
